@@ -16,10 +16,10 @@
 
 ## Identificação
 
-- **Nome:** Fulano de Tal  
-- **Matrícula:** 12345678  
-- **Matéria:** Programação Genérica  
-- **Período:** Segundo semestre de 2024  
+- **Nome:** Weslley Menezes  
+- **Matrícula:** 202320537 
+- **Matéria:** Paradígmas de Programação (PP)
+- **Período:** Terceiro Semestre
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
