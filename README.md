@@ -3,7 +3,8 @@
   <h1 align="center">Resolusão de Atividade Para o Complemento de Nota</h1>
   <h3 align="center">Atividade 18</h3>
   <p align="center">
-    Descrição breve ou slogan do projeto.
+    A atividade concistia em resolver a seguinte questão:
+      -Exemplo de mau uso de herança ("Example of misusing inheritance") em [java-programming.mooc](https://java-programming.mooc.fi/part-9/1-inheritance)): criar e executar 2 programas com base na explicação, comparando mau/bom uso de herança.-
     <br />
     <a href="#identificação">Identificação</a> ·
     <a href="#conceito">Conceito</a> ·
