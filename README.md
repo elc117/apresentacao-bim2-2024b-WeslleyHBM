@@ -26,12 +26,10 @@
 
 ---
 
-## Introdução
 
----
 ## Conceito
 
-- **Ponto 1:** blablabla1  
+- **Pesquisa:** Para começar iniciei lendo o material de apoio, após realizar a tradução do mesmo, a partir dele consegui aprimorar alguns conceitos basico do paradigma orientado a objetos### 
 - **Ponto 2:** blablabla2  
 - **Ponto 3:** blablabla3  
 
