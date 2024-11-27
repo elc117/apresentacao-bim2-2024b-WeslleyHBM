@@ -6,8 +6,8 @@
     Descrição breve ou slogan do projeto.
     <br />
     <a href="#identificação">Identificação</a> ·
+    <a href="#tconceito">Conceito</a> ·
     <a href="#detalhes">Detalhes</a> ·
-    <a href="#tabela">Tabela</a> ·
     <a href="#conclusão">Conclusão</a>
   </p>
 </div>
