@@ -4,7 +4,7 @@
   <h3 align="center">Atividade 18</h3>
   <p align="center">
     A atividade concistia em resolver a seguinte questão:
-      -Exemplo de mau uso de herança ("Example of misusing inheritance") em [java-programming.mooc]([https://java-programming.mooc.fi/part-9/1-inheritance](https://java-programming.mooc.fi/part-9/1-inheritance)): criar e executar 2 programas com base na explicação, comparando mau/bom uso de herança.-
+      -Exemplo de mau uso de herança ("Example of misusing inheritance") em [java-programming.mooc](https://www.ufsm.br/orgaos-suplementares/biblioteca/e-books-2/)([https://java-programming.mooc.fi/part-9/1-inheritance](https://java-programming.mooc.fi/part-9/1-inheritance)): criar e executar 2 programas com base na explicação, comparando mau/bom uso de herança.-
     <br />
     <a href="#identificação">Identificação</a> ·
     <a href="#conceito">Conceito</a> ·
