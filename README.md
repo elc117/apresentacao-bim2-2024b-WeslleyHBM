@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
-  <h1 align="center">Título Principal</h1>
-  <h3 align="center">Subtítulo</h3>
+  <h1 align="center">Resolusão de Atividade Para o Complemento de Nota</h1>
+  <h3 align="center">Atividade 18</h3>
   <p align="center">
     Descrição breve ou slogan do projeto.
     <br />
@@ -25,6 +25,9 @@
 
 ---
 
+## Introdução
+
+---
 ## Conceito
 
 - **Ponto 1:** blablabla1  
