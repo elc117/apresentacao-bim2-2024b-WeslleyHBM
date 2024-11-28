@@ -33,15 +33,15 @@
 
 ## Conceito
 
-  - **Pesquisa:** Para começar iniciei lendo o material de apoio, após realizar a tradução do mesmo, a partir dele consegui aprimorar alguns conceitos basico do paradigma orientado a pairtir disto consegui trabalhar conceitos de mais intermediarios em relação a hierarquia, como super-classes e sub-classes, construção de classes e multiplicidade de classes publicas.
+  - **Pesquisa:** Para começar, iniciei lendo o material de apoio e realizando a tradução do mesmo. A partir dele, consegui aprimorar alguns conceitos básicos do paradigma orientado a objetos. Com isso, trabalhei em conceitos mais intermediários, como hierarquia, superclasses e subclasses, construção de classes e a multiplicidade de classes públicas.  
   
-  - **desenvolvimento:** com ajuda do material de apoio das aulas, do material do site e da ferramenta de inteligencia artificial (chat GPT), consegui elaborar ideias de exemplos e pesquisar conceitos, os quais ainda não dominava, mesmo tendo-os visto em aula.
+  - **Desenvolvimento:** Com a ajuda do material de apoio das aulas, do site mencionado e da ferramenta de inteligência artificial (ChatGPT), elaborei exemplos e pesquisei conceitos que ainda não dominava completamente, mesmo já tendo visto alguns deles em aula.  
   
-  - **Principio:** O principio desta atividade foi entender como hierarquias funcionam e como suas estruturas devem ser usadas de forma mais eficaz e segura, assim proporcionando um codigo mais limpo e com um fluxo mais direcional.
-
-  - **Hierarquia:** é um conceito muito importante no paradiguima de orientação a objetos, tendo como base super-classes e sub-classes, as super-classes tambem conhecidas como classes mães são as classes que vão passar a diante atributos de si propria e as sub-classes ou classes filhas são aquelas que recebem esses atributos e os utilizam podendo apenas mantelos para passarem adiante futuramente ou reescrevelos para assim passar uma nova funcionalidade (gene) para suas filhas, assim criando o conceito de uma família.
-
-  - **Is-a:** ou ``é um`` como tambem é conhesido acaba por ser um dos conceitos que regem as diretrise de hierarquia e passa a ser um dos principais fatores se não o pricipal fator para indentificar um ``bom`` ou um ``mau`` uso de hierarquia, ela tambem serve para que ocorra uma fácil leitura do código e que possa impedir que ele se quebre facilmente.
+  - **Princípio:** O objetivo desta atividade foi compreender como hierarquias funcionam e como suas estruturas devem ser usadas de forma mais eficaz e segura, proporcionando um código mais limpo e com um fluxo mais direcionado.  
+  
+  - **Hierarquia:** É um conceito essencial no paradigma de orientação a objetos, envolvendo superclasses (classes "mães") e subclasses (classes "filhas"). Superclasses transferem atributos para subclasses, que podem simplesmente herdá-los ou reescrevê-los para adicionar novas funcionalidades. Esse modelo gera o conceito de uma "família" de classes.  
+  
+  - **Is-a:** O conceito de "is-a" ou "é um" é fundamental para determinar um bom ou mau uso de hierarquia. Ele garante uma leitura clara do código e ajuda a evitar que o código se quebre facilmente.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
@@ -51,7 +51,7 @@
 
 ### Desenvolvimento
 
-  -**codigo com bom uso de hierarquia**
+#### **codigo com bom uso de hierarquia**
   ```java
 
   // Classe mãe que sera a classe geratriz ou superClass
@@ -96,9 +96,9 @@
   }
   
   ```
-  -``motivo:`` o motivo pelo qual isto ocorre e por causa da forma em que as sub-classes utilizam a super-classe animal de forma fluida pois leão é um animal assim como o pinguim.
+  -``motivo:`` Esse é um bom exemplo de herança, pois ``Leao`` e ``Pinguim`` são tipos específicos de ``Animal``, demonstrando claramente o conceito de "é um".
   
-  -**codigo com mau uso de hierarquia**
+#### **codigo com mau uso de hierarquia**
   
   ```
   
@@ -141,7 +141,7 @@
   
   ```
   
-  -``motivo:`` Este é um mal exemplo pelo fato de que a classe carroComercial está herdando a classe carroEsportibo porem ela não ``é um`` carro esportivo.
+  -``motivo:`` Esse é um mau exemplo de herança, pois ``CarroComercial`` não é um ``CarroEsportivo``. Aqui, o relacionamento "é um" é inadequado.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
@@ -166,16 +166,17 @@
 
 ## Curiosidades
 
-  - **Super:** A utilização de super no trexo ``super(cor, velocidadeMaxima);`` ao invés de ``this`` da-se pelo fato de que quando utilizamos o super() em java refere-se à chamada do construtor da classe base (superclasse) a partir da classe derivada (subclasse). Ele é usado para inicializar atributos ou executar lógica definida no construtor da superclasse antes de personalizar a lógica na subclasse.
+  - **Uso de ``Super``:** A utilização de ``super`` no trecho ``super(cor, velocidadeMaxima);``, em vez de ``this``, ocorre porque o ``super()`` faz referência ao construtor da superclasse (classe base) a partir de uma subclasse. Ele é usado para inicializar atributos ou executar lógica definida na superclasse antes de customizar a lógica na subclasse.
+    
       - **Ponto 1:** Mantém a lógica centralizada na superclasse.
       - **Ponto 2:** Reduz duplicação de código.
       - **Ponto 3:** Permite fácil modificação na lógica da superclasse sem quebrar subclasses.
 
-  - **Public:** Pode parecer simplis e bobo porem com esse trabalho acabei por descobrir que só pode haver uma classe publica pricipal em seu código e se outras necessitar de que outras classes sejam publicas você precisará estruturalas em códigos diferentes.
+  - **Public:** Pode parecer simples e bobo porem com esse trabalho acabei por descobrir que apenas uma classe pública principal pode existir em um único arquivo de código em Java. Caso haja a necessidade de múltiplas classes públicas, elas devem ser organizadas em arquivos separados. Essa limitação visa manter a organização e a estruturação do código.
 
-  - **clean code:** Um dos principais motivos de utilizarmos o principio de ``is-a`` alem de ser a forma padrão é tambem para que ocorra uma este conceito tambem conhecido como ``clean code`` é não so um conceito como muito mais sendo considerado uma das melhores praticas/tecnicas de escrita de códigos na atualidade, o clean code ou codigo limpo consiste em nomear classes, funções, variaveis, etc, da melhor maneira para que ao simples fato de se ler o nome se possa saber qual o objetivo daquilo, este conceito alem de deixar um codigo mais fluido tambem auxilia na não necessidade de multiplos comentario pelo codigo e napossibilidade de criar documentações mais simplificadas e diretas sobre o codigo.
+  - **Código limpo (``clean code``):** O princípio de usar o conceito ``is-a`` não é apenas uma convenção, mas uma prática de "código limpo". Esse conceito consiste em nomear classes, funções e variáveis de forma clara e objetiva, permitindo que o propósito seja compreendido rapidamente. Ele reduz a necessidade de comentários extensos e simplifica a documentação.
 
-  - **Curiosidades:** Uma curiosidade é que o proprio tópico de curiosidades só foi criado para que eu pudesse colocar coisas que descobri e achei facinante no decorrer deste trabalho ou ao decorrer da minha grraduação mas que se encaixassem com este trabalho.
+  - **Objetivo deste tópico:** Curiosamente, o próprio tópico de "Curiosidades" foi criado para registrar descobertas interessantes feitas ao longo deste trabalho ou do curso de graduação, desde que se relacionassem com o contexto do projeto.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
@@ -213,7 +214,11 @@
 
 ## Conclusão
 
-  - A partir da efetuação deste trabalho podemos ter como ponto, a relevancia que duas perguntas podem fazer para um código de orientação a objetos, são elas: ``is-a`` e ``has-a`` pois toda a parte de herança e hierarquia, pode se resumir a, é um ou a tem um e aplicando mais de um conceito é claro pode-se fazer do simples o complexo e do complexo o simples. O problema proposto não era muito difícil porem necessitava de atenção aos pequenos detalhes
+  - Ao realizar este trabalho, ficou evidente a importância de compreender os conceitos fundamentais da hierarquia em programação orientada a objetos, como "is-a" e "has-a". Esses princípios não apenas orientam o uso correto de herança, mas também ajudam a construir códigos mais claros, reutilizáveis e robustos.
+
+  O exercício demonstrou que um bom uso de herança facilita a leitura, manutenção e expansão do código, enquanto um mau uso pode criar confusão e problemas estruturais. Além disso, reforçou a prática de clean code, onde nomes, estrutura e documentação tornam o código autossuficiente e compreensível, reduzindo a necessidade de comentários excessivos.
+
+  Por fim, a atividade contribuiu significativamente para o entendimento de como aplicar herança de forma prática e eficiente, destacando os erros comuns que devem ser evitados e as boas práticas que ajudam a criar sistemas bem projetados e escaláveis.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
