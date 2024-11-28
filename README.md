@@ -52,7 +52,7 @@
 ### Desenvolvimento
 
 #### **codigo com bom uso de hierarquia**
-  ```java
+  ``` java
 
   // Classe mãe que sera a classe geratriz ou superClass
   class Animal {
@@ -97,10 +97,21 @@
   
   ```
   - ``motivo:`` Esse é um bom exemplo de herança, pois ``Leao`` e ``Pinguim`` são tipos específicos de ``Animal``, demonstrando claramente o conceito de "é um".
+
+#### **Saída**
+
+``` terminal
+
+Simba faz o som: 
+Roar!
+Pingu faz o som: 
+Squawk!
+
+```
   
 #### **codigo com mau uso de hierarquia**
   
-  ```
+  ``` java
   
   // Classe que sera utilizada como classe Mãe ou superClass
   class CarroEsportivo {
@@ -142,6 +153,22 @@
   ```
   
   - ``motivo:`` Esse é um mau exemplo de herança, pois ``CarroComercial`` não é um ``CarroEsportivo``. Aqui, o relacionamento "é um" é inadequado.
+
+#### **Saída**
+
+``` terminal
+
+Carro esportivo:
+Cor: Vermelho
+Velocidade máxima: 350 km/h
+Carro esportivo acelerando rapidamente!
+
+Carro comercial:
+Cor: Branco
+Velocidade máxima: 120 km/h
+Capacidade de carga: 1000 kg
+
+```
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
