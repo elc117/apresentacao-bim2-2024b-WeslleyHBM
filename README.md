@@ -252,7 +252,7 @@ Capacidade de carga: 1000 kg
 ---
 
 ## Bibliografia
-  - Slides de [POD](https://github.com/AndreaInfUFSM/elc117-2024b).
+  - Slides de [PP](https://github.com/AndreaInfUFSM/elc117-2024b).
   - material de apoio da questão [java-programming.mooc.fi](https://java-programming.mooc.fi/part-9/1-inheritance).
   - ferramenta de inteligencia artificial [Chat GPT](https://chatgpt.com/).
 
