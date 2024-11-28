@@ -147,7 +147,7 @@
 
 ---
 
-## Comparativo
+## Comparativos
 
 #### Tabela de Dados  
 
