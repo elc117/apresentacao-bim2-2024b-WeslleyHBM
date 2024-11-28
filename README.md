@@ -9,7 +9,11 @@
     <a href="#identificação">Identificação</a> ·
     <a href="#conceito">Conceito</a> ·
     <a href="#detalhes">Detalhes</a> ·
-    <a href="#conclusão">Conclusão</a>
+    <a href="#comparativos">Comparativos</a> ·
+    <a href="#curiosidades">Curiosidades</a> ·
+    <a href="#exemplos">Exemplos</a> ·
+    <a href="#conclusão">Conclusão</a>.
+    <a href="#bibliografia">Bibliografia</a> 
   </p>
 </div>
 
@@ -37,7 +41,7 @@
 
   - **Hierarquia:** é um conceito muito importante no paradiguima de orientação a objetos, tendo como base super-classes e sub-classes, as super-classes tambem conhecidas como classes mães são as classes que vão passar a diante atributos de si propria e as sub-classes ou classes filhas são aquelas que recebem esses atributos e os utilizam podendo apenas mantelos para passarem adiante futuramente ou reescrevelos para assim passar uma nova funcionalidade (gene) para suas filhas, assim criando o conceito de uma família.
 
-  - **Is-a:** ou ``é um`` como tambem é conhesido acaba por ser um dos conceitos que regem as diretrise de hierarquia e passa a ser um dos principais fatores se não o pricipal fator para indentificar um ``bom`` ou um ``mau`` uso de hierarquia.
+  - **Is-a:** ou ``é um`` como tambem é conhesido acaba por ser um dos conceitos que regem as diretrise de hierarquia e passa a ser um dos principais fatores se não o pricipal fator para indentificar um ``bom`` ou um ``mau`` uso de hierarquia, ela tambem serve para que ocorra uma fácil leitura do código e que possa impedir que ele se quebre facilmente.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
@@ -143,7 +147,7 @@
 
 ---
 
-### Subtítulo 3
+## Comparativo
 
 #### Tabela de Dados  
 
@@ -163,15 +167,19 @@
 ## Curiosidades
 
   - **Super:** A utilização de super no trexo ``super(cor, velocidadeMaxima);`` ao invés de ``this`` da-se pelo fato de que quando utilizamos o super() em java refere-se à chamada do construtor da classe base (superclasse) a partir da classe derivada (subclasse). Ele é usado para inicializar atributos ou executar lógica definida no construtor da superclasse antes de personalizar a lógica na subclasse.
-      . **Ponto 1:** Mantém a lógica centralizada na superclasse.
-      . **Ponto 2:** Reduz duplicação de código.
-      . **Ponto 3:** Permite fácil modificação na lógica da superclasse sem quebrar subclasses.
+      - **Ponto 1:** Mantém a lógica centralizada na superclasse.
+      - **Ponto 2:** Reduz duplicação de código.
+      - **Ponto 3:** Permite fácil modificação na lógica da superclasse sem quebrar subclasses.
 
   - **Public:** Pode parecer simplis e bobo porem com esse trabalho acabei por descobrir que só pode haver uma classe publica pricipal em seu código e se outras necessitar de que outras classes sejam publicas você precisará estruturalas em códigos diferentes.
 
-  -  **Curiosidades:** Uma curiosidade é que o proprio topico de curiosidades só fou criado para que eu pudesse colocar coisas que descobri e achei facinante no decorrer deste trabalho.
+  - **clean code:** Um dos principais motivos de utilizarmos o principio de ``is-a`` alem de ser a forma padrão é tambem para que ocorra uma este conceito tambem conhecido como ``clean code`` é não so um conceito como muito mais sendo considerado uma das melhores praticas/tecnicas de escrita de códigos na atualidade, o clean code ou codigo limpo consiste em nomear classes, funções, variaveis, etc, da melhor maneira para que ao simples fato de se ler o nome se possa saber qual o objetivo daquilo, este conceito alem de deixar um codigo mais fluido tambem auxilia na não necessidade de multiplos comentario pelo codigo e napossibilidade de criar documentações mais simplificadas e diretas sobre o codigo.
+
+  - **Curiosidades:** Uma curiosidade é que o proprio tópico de curiosidades só foi criado para que eu pudesse colocar coisas que descobri e achei facinante no decorrer deste trabalho ou ao decorrer da minha grraduação mas que se encaixassem com este trabalho.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
+
+---
 
 ## Exemplos 
 
@@ -205,6 +213,15 @@
 
 ## Conclusão
 
-Resumo ou encerramento do documento, como reflexões ou objetivos alcançados.  
+  - A partir da efetuação deste trabalho podemos ter como ponto, a relevancia que duas perguntas podem fazer para um código de orientação a objetos, são elas: ``is-a`` e ``has-a`` pois toda a parte de herança e hierarquia, pode se resumir a, é um ou a tem um e aplicando mais de um conceito é claro pode-se fazer do simples o complexo e do complexo o simples. O problema proposto não era muito difícil porem necessitava de atenção aos pequenos detalhes
+
+<p align="right">(<a href="#readme-top">início</a>)</p>
+
+---
+
+## Bibliografia
+  - Slides de [POD](https://github.com/AndreaInfUFSM/elc117-2024b).
+  - material de apoio da questão [java-programming.mooc.fi](https://java-programming.mooc.fi/part-9/1-inheritance).
+  - ferramenta de inteligencia artificial [Chat GPT](https://chatgpt.com/).
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
