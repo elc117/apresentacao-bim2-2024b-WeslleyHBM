@@ -96,7 +96,7 @@
   }
   
   ```
-  -``motivo:`` Esse é um bom exemplo de herança, pois ``Leao`` e ``Pinguim`` são tipos específicos de ``Animal``, demonstrando claramente o conceito de "é um".
+  - ``motivo:`` Esse é um bom exemplo de herança, pois ``Leao`` e ``Pinguim`` são tipos específicos de ``Animal``, demonstrando claramente o conceito de "é um".
   
 #### **codigo com mau uso de hierarquia**
   
@@ -141,7 +141,7 @@
   
   ```
   
-  -``motivo:`` Esse é um mau exemplo de herança, pois ``CarroComercial`` não é um ``CarroEsportivo``. Aqui, o relacionamento "é um" é inadequado.
+  - ``motivo:`` Esse é um mau exemplo de herança, pois ``CarroComercial`` não é um ``CarroEsportivo``. Aqui, o relacionamento "é um" é inadequado.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
@@ -216,9 +216,9 @@
 
   - Ao realizar este trabalho, ficou evidente a importância de compreender os conceitos fundamentais da hierarquia em programação orientada a objetos, como "is-a" e "has-a". Esses princípios não apenas orientam o uso correto de herança, mas também ajudam a construir códigos mais claros, reutilizáveis e robustos.
 
-  O exercício demonstrou que um bom uso de herança facilita a leitura, manutenção e expansão do código, enquanto um mau uso pode criar confusão e problemas estruturais. Além disso, reforçou a prática de clean code, onde nomes, estrutura e documentação tornam o código autossuficiente e compreensível, reduzindo a necessidade de comentários excessivos.
-
-  Por fim, a atividade contribuiu significativamente para o entendimento de como aplicar herança de forma prática e eficiente, destacando os erros comuns que devem ser evitados e as boas práticas que ajudam a criar sistemas bem projetados e escaláveis.
+    O exercício demonstrou que um bom uso de herança facilita a leitura, manutenção e expansão do código, enquanto um mau uso pode criar confusão e problemas estruturais. Além disso,          reforçou a prática de clean code, onde nomes, estrutura e documentação tornam o código autossuficiente e compreensível, reduzindo a necessidade de comentários excessivos.
+  
+    Por fim, a atividade contribuiu significativamente para o entendimento de como aplicar herança de forma prática e eficiente, destacando os erros comuns que devem ser evitados e as         boas práticas que ajudam a criar sistemas bem projetados e escaláveis.
 
 <p align="right">(<a href="#readme-top">início</a>)</p>
 
